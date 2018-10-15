@@ -55,9 +55,9 @@
                   <td>{{ $product->quantity * $product->price }}</td>
                 </tr>
             @endforeach
-            <tr>Total Value Numbers: {{ $totalValue }}</tr>
           </tbody>
         </table>
+        <p>Total Value Numbers: {{ $totalValue }}</p>
     </body>
 </html>
 
